@@ -39,6 +39,6 @@ const displaySearchResult = books => {
     })
     }
     else{
-        document.getElementById('no-result').innerHTML = `<h1 class="text-center bg-danger text-light">please give valid book name</h1>`
+        document.getElementById('no-result').innerHTML = `<h1 class="text-center text-danger">please give valid book name</h1>`
     }
 }
